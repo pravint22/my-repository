@@ -1,0 +1,150 @@
+body{
+  background-color: blanchedalmond;
+}
+.welcome-message {
+  font-size: 3em;
+  background-color: #6f7451;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.h1 {
+  background-color: #007bff;
+  color: #000000;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.list-category {
+  font-size: 2.5em;
+  color: hsl(0, 82%, 55%);
+  margin-bottom: 20px;
+  border: 3.5px solid rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px hsla(0, 0%, 0%, 0.2);
+  background-color: #8cf0e8;
+}
+.list-category:hover {
+  color: hsla(22, 73%, 18%, 0.811);
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+ 100% { transform: translate(-3px, 0px) rotate(1deg); }
+}
+.list-items li{
+  font-size: 1.5em;
+  color: #000000; /* Hot pink color */
+}
+
+.list-items li:hover {
+  color: #ff1b1b; /* Orange red color */
+  /* transform: rotate(10deg); */
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); */
+  transition: transform 0.5s, color 0.5s;
+  transform: translateY(-5px);
+}
+/* Additional CSS rules can be added here */
+
+
+/* Basic button styling */
+.button {
+  display: inline-block;
+  padding: 0.8em 1.5em;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  background-color: #007bff;
+  color: white;
+}
+
+/* Hover state */
+.button:hover {
+  background-color: #0056b3;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Focus state */
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0,123,255,0.25);
+}
+
+/* Active state */
+.button:active {
+  transform: translateY(0);
+  background-color: #00408a;
+}
+
+/* Disabled state */
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Optional button variations */
+.button-secondary {
+  background-color: #6c757d;
+}
+
+.button-secondary:hover {
+  background-color: #5a6268;
+}
+
+.button-success {
+  background-color: #28a745;
+}
+
+.button-success:hover {
+  background-color: #218838;
+}
+
+/* Optional outline style */
+.button-outline {
+  background-color: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+}
+
+.button-outline:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.counter-container .item {
+  color: rgb(31, 83, 54);
+  font-size: 20px;
+}
+
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
